@@ -62,11 +62,7 @@ func wndProc(hwnd syscall.Handle, msg uint32, wparam, lparam uintptr) uintptr {
 				return 0
 			}
 			setText(statusLabel, fmt.Sprintf("Fixed for %dx%d. Backup saved.", w, h))
-			message("MW2 Ultrawide Fix", fmt.Sprintf("Done!
-
-Patched %d aspect-ratio value(s) for %dx%d (%.4f:1).
-
-Your original iw4sp.exe is backed up automatically.", result.Count, w, h, result.AspectRatio), MB_OK|MB_ICONINFORMATION)
+			message("MW2 Ultrawide Fix", fmt.Sprintf("Done!\n\nPatched %d aspect-ratio value(s) for %dx%d (%.4f:1).\n\nYour original iw4sp.exe is backed up automatically.", result.Count, w, h, result.AspectRatio), MB_OK|MB_ICONINFORMATION)
 			return 0
 
 		case IDC_RESTORE:
