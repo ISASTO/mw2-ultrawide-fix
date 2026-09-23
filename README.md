@@ -6,7 +6,7 @@ The old widescreen tools stopped working when `iw4sp.exe` changed to 64-bit. Thi
 
 ## Use it
 
-1. Download `MW2-Ultrawide-Fix.exe`.
+1. Download `MW2-Ultrawide-Fix.exe` from the latest GitHub Release.
 2. Put it in your MW2 folder, next to `iw4sp.exe`.
    - Usually: `Steam\steamapps\common\Call of Duty Modern Warfare 2\`
 3. Close MW2 if it is running.

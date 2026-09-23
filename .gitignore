@@ -1,0 +1,4 @@
+*.exe
+!MW2-Ultrawide-Fix.exe
+*.ultrawide-temp
+iw4sp.exe*
